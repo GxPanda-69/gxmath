@@ -1,0 +1,15 @@
+{
+  "name": "gxmath",
+  "version": "0.0.1",
+  "description": "General purpose math helper",
+  "license": "ISC",
+  "author": "gxpanda",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"> Installing dependencies...\" && npm install && echo \"> Compiling...\" && npx tsc && echo \"> Running tests...\" && node dist/test.js"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
